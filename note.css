@@ -1,0 +1,97 @@
+@media only screen and (min-width:300px) and (max-width:600px){
+    /* overall */
+.overall{
+    /* background-image: linear-gradient(to bottom , #271B4F, #0D1224); */
+    background-color: red;
+    width: 100%;
+    /* background-color:red; */
+    
+}
+    .navbar{
+        padding: 40px 40px 40px 40px;
+        color:white;
+        display: flex;
+        justify-content: space-between;
+        height:70px;
+        /* background-color: red; */
+    }
+    .bar{
+        font-size: 20px;
+    }
+    nav .sname{
+        position: fixed;
+        background-color:transparent;
+        left:120%;
+        top:100px;
+        width: 100%;
+        height: 85vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 50px;
+        text-align: center;
+
+    }
+    .lable{
+        display: inline;
+    }
+    .logo{
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        /* font-style: Semi Bold; */
+        font-size: 12px;
+        /* leading-trim: NONE; */
+        line-height: 100%;
+        letter-spacing: 0%;
+        
+    }
+    /* home */
+    .home{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .code{
+        /* z-index: 0; */
+        /* position:absolute; */
+        /* left: 15.50%; */
+        border-top-left-radius:25px ;
+        border-top-right-radius:25px ;
+        /* top:109.50%; */
+        height: 500px;
+        width: 510px;
+        /* border-radius:0px 0px 25px 25px; */
+        background: linear-gradient(127.02deg, #0D1225 14.5%, #15184C 98.1%);
+        /* width: 50px; */
+        /* border: #D3428C 1px solid ; */
+        /* border-radius: 50px; */
+        /* border-top-color: yellow; */
+        /* border: 40px solid linear-gradient(
+            90deg,
+            #3E4A78,
+            #D3428C,
+            #A03ED1,
+            #312E81
+        ); */
+        /* border-radius:50px ; */
+        /* margin-top: -300px; */
+        font-size: 20px;
+        /* position:absolute;/ */
+        z-index: 1;
+        /* box-sizing: border-box;*/
+    }
+    .right{
+        margin-right: 20px;
+    }
+}
+.sepline{
+    margin-top: 100px;
+}
+/* grid overall */
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: red; */
+    /* padding: ; */
+
+}
